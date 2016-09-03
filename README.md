@@ -1,7 +1,10 @@
 A base setup for: Angular 2, TypeScript, Jasmine, Karma, PhantomJS, Webpack.
 
-To install and run unit tests:
+Download and install the project:
  1. git clone https://github.com/ryancookdev/Angular2Setup.git
  2. cd Angular2Setup
  3. npm install
- 4. npm test
+
+Run unit tests:
+ * npm test // Runs all of the tests and then exits
+ * npm run test:watch // Runs all of the tests and then watches for file changes
